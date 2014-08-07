@@ -1,25 +1,61 @@
 ---
 layout: page
-title: Hello World!
+title: xflow project!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+## project description 
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
-## Update Author Attributes
 
-In `_config.yml` remember to specify your own data:
+### Sub projects:
+
+#### xflow app
+[xflow app Cocoapod](https://github.com/xflow/xflowapp)
+
+#### xflow parser
+[xflow headers parser](https://github.com/xflow/xflowparser)
+
+#### xflow.io
+[xflow.github.io](https://github.com/xflow/xflow.github.io)
+
+#### xflow studio
+TBD.
+
+
+# Headline1
+------------
+
+{::options parse_block_html="true" /}
+<div>
+# Headline2
+------------
+</div>
+
+## Getting Started
+
+To run xflow:
     
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+    install CocoaPod
+    download studio
+
+this is ~~good~~ bad
+
+
+TASK LIST: 
+
+ * create github project: 
+ * create github project: 
+ * create github project: 
+  ~~ create **github project**: ~~
+   - normal **formatting**, @mentions, #1234 refs
+ * incomplete
+ * completed
+ 
+ - [x] xxxx
+ - [] xxxx
 
 The theme should reference these variables whenever needed.
     

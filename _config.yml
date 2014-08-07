@@ -2,8 +2,9 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
+
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+# highlighter: pygments
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -11,11 +12,18 @@ pygments: true
 title : xflow
 tagline: Site Tagline
 author :
-  name : Mhammed O. Tillawy
+  name : Mohammed O. Tillawy
   email : tillawy@gmail.com
   github : xflow
   twitter : xflowapp
   feedburner : feedname
+
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["strikethrough","underline","highlight","quote","tables"]
+
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -127,4 +135,5 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+
+
